@@ -1,0 +1,17 @@
+config:
+  auth_url : https://kaizen.massopen.cloud:5000
+  project : CyberSecurityRiskAnalysis 
+  username : USER_NAME 
+  password : PASSWORD
+  container : Test
+  filename : OPTIONAL 
+  name : sahara 
+  endpoint : /endpoints/AUTH_
+  master : spark://IP_ADDRESS:7077
+  appName : Network_SparkR
+  sparkHome : /usr/local/spark
+  sparkJars : libs/hadoop-openstack.jar
+
+
+
+
